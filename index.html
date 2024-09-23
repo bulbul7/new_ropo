@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Right Sidebar Example</title>
+    <link rel="stylesheet" href="/assets/styles.css">
+</head>
+<body>
+    <div class="contact-container">
+        <div class="contact-card">
+            <div class="icon-container">
+                <img src="assets/img/Icon-call.png" alt="Phone Icon"> <!-- Replace with your phone icon -->
+            </div>
+            <h3>Call us At</h3>
+            <p>01781-251002</p>
+        </div>
+        <div class="contact-card">
+            <div class="icon-container">
+                <img src="assets/img/Icon-mail.png" alt="Phone Icon"> <!-- Replace with your phone icon -->
+            </div>
+            <h3>Email us At</h3>
+            <p>mondolsgraphic@gmail.com</p>
+        </div>
+        <div class="contact-card">
+            <div class="icon-container">
+                <img src="assets/img/Icon-mail.png" alt="Phone Icon"> <!-- Replace with your phone icon -->
+            </div>
+            <h3>Our Location</h3>
+            <p>Vatara, Gulshan, Dhaka - 1212</p>
+        </div>
+    </div>
+    <div class="map-container">
+        <iframe 
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3650.5864262108764!2d90.39945221498116!3d23.794871084569254!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755c7a8abffb77f%3A0x58df588cdb6d4c9f!2sVatara%2C%20Gulshan%2C%20Dhaka%20-%201212!5e0!3m2!1sen!2sbd!4v1693672189200!5m2!1sen!2sbd" 
+            width="600" 
+            height="450" 
+            style="border:0;" 
+            allowfullscreen="" 
+            loading="lazy" 
+            referrerpolicy="no-referrer-when-downgrade">
+        </iframe>
+    </div>
+    <div class="contact-section">
+        <!-- Contact Form -->
+        <div class="contact-form">
+            <div class="form-header">
+                <span class="question-tag">HAVE ANY QUESTIONS</span>
+                <h2>Feel Free To Contact!</h2>
+            </div>
+
+            <form>
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" placeholder="Your name">
+
+                <div class="email-phone">
+                    <div class="input-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" placeholder="Your email">
+                    </div>
+                    <div class="input-group">
+                        <label for="phone">Phone</label>
+                        <div class="phone-input">
+                            <div class="country-code">
+                                <img src="assets/img/BD-Flag-icon.png" alt="Bangladesh Flag"> <!-- Replace with your flag image source -->
+                                <select>
+                                    <option value="+880">+880</option>
+                                    <!-- Add more country codes as needed -->
+                                </select>
+                            </div>
+                            <input type="text" id="phone" name="phone" value="171251002">
+                        </div>
+                    </div>
+                </div>
+
+                <label for="message">Message</label>
+                <textarea id="message" name="message" rows="4" placeholder="Write your message"></textarea>
+
+                <button type="submit">Send Message</button>
+            </form>
+        </div>
+
+        <!-- Contact Illustration -->
+        <div class="contact-illustration">
+            <img src="assets/img/Contact 1.png" alt="Contact Illustration"> <!-- Replace with actual image -->
+        </div>
+    </div>
+</body>
+</html>
